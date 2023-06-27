@@ -1,0 +1,87 @@
+Questão #1
+Vale
+100
+Enunciado
+APP Banco
+Crie uma aplicação que simule uma app bancária. Os clientes podem ser pessoa física ou jurídica,
+sendo que para PJ existe a cobrança de uma taxa de 0.5% para cada saque ou transferência. Além do produto conta-corrente,
+os clientes PF podem abrir uma conta-poupança e conta-investimento. Clientes PJ não abrem poupança,
+mas seus rendimentos em conta-investimento rendem 2% a mais.
+
+Crie as funcionalidades: abrir conta, sacar, depositar, transferência, investir, consultar saldo.
+
+Use a classe "Aplicacao" para criar seu método "main" e demonstrar o funcionamento do seu código.
+
+O projeto pode ser entregue via arquivo zip para o e-mail jesse.haniel@ada.tech
+
+Na resposta da atividade insira o endereço de e-mail que a atividade foi entregue
+
+
+*******************************************************************************************
+Abrir nova conta = OPEN_NEW_ACCOOUNT
+
+Sacar = TO_WITHDRAW
+
+Depositar = DEPOSIT
+
+Tranferência = TRANSFER
+
+Investir = INVEST
+
+Consultar saldo = CONSULT_BALANCE
+
+sair = EXIT
+
+
+************************************************
+
+conta = account
+
+Conta = Account
+ContaCorrente = CurrentAccount
+ContaInvestimento = InvestmentAccount
+ContaPoupança = SavingsAccount
+************************************************
+agencia = agency
+novaConta = newAccount
+depositar = deposit
+transferir = transfer
+atualizarConta = toUpdateAccount
+sacar = toWithdraw
+procuraConta = searchAccount
+abrirConta = openAccount
+investir = invest
+poupando = sparing
+investindo = investing
+taxaRendimento = taxPerformance
+destinatario = addressee
+remetente = sender
+numeroContaRemetente = numbleAccountSender
+numeroContaDesinatario = numbleAccountAddressee
+***********************************
+
+pessoa = person
+
+Pessoa = Person
+PessoaFisica = PhysicalPerson
+Pessoajuridica = LegalPerson
+
+***************************************
+
+Aplicacao = Application
+
+abrir nova conta = CreateOpenNewAccount
+
+sacar = CreateToWithdraw
+
+depositar = CreateDeposit
+
+transferencia = CreateTransfer
+
+investir = CreateInvest
+
+consultar saldo = CreateConsultBalance
+
+**************************************
+
+
